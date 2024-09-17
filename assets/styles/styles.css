@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+  
+    font-family: 'Verdana', sans-serif;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* National ID Card Styles */
+
+.id-card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 1.5px 0px #b9b9b9;
+    height: auto; /* Allow the content to define height */
+    min-height: 250px; /* Set a minimum height */
+    background-image: url('../images/card.jpg'); /* Add your background image */
+    background-size: cover; /* Make sure the background covers the whole card */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+.embem-img{
+    height: 50px;
+    width: 50px;
+}
+.flag-img{
+    height: 40px;
+    width: 50px;
+}
+.bold-text{
+    font-weight: bold;
+}
+.id-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+    
+}
+.info2{
+font-size: 12px;
+text-align: left;
+margin-left: 13px;
+}
+
+.content-img{
+
+    justify-content: center;
+    align-items: center;
+}
+
+.tag1{
+    font-size: 10px;
+    color:#000
+  
+}
+.tag2{
+    font-size: 14px;
+    color: #0950ef;
+    
+}
+.tag3{
+    font-size: 12px;
+    color: #0950ef;
+}
+.id-card img {
+    margin: 0 auto;
+}
+
+.header img {
+    width: 100px;
+    margin-top: 15px;
+}
+.nin{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 13px;
+    text-align: left;
+}
+.info{
+
+    
+    margin-left: 13px;
+    text-align: left;
+
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content within the .photo container */
+}
+
+.id-image {
+    display: flex;
+    align-items: center; /* Vertically center the image within the .id-image container */
+    justify-content: center; /* Optionally, center horizontally as well */
+    height: 180px; /* Make sure the container takes the full height */
+}
+
+.info-img {
+    max-height: 180px; /* Adjust this value to set the max height of the image */
+    width: 180px;
+}
+
+
+
+h2 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+h3 {
+    font-size: 12px;
+    margin: 2.5px 0;
+    font-weight: 300;
+}
+
+.qr-code img {
+    width: 50px;
+}
+
+p {
+    font-size: 12px; /* Adjusted for readability */
+    margin: 2px;
+}
+
+.id-card-hook {
+    background-color: #000;
+    width: 70px;
+    margin: 0 auto;
+    height: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.id-card-hook:after {
+    content: '';
+    background-color: #d7d6d3;
+    width: 47px;
+    height: 6px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 6px;
+    border-radius: 4px;
+}
+
+.id-card-tag-strip {
+    width: 45px;
+    height: 40px;
+    background-color: #0950ef;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    top: 9px;
+    z-index: 1;
+    border: 1px solid #0041ad;
+}
+
+.id-card-tag-strip:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    position: relative;
+    top: 10px;
+}
+
+.id-card-tag {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #0958db;
+    margin: -10px auto -30px auto;
+}
+
+.id-card-tag:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #ffffff;
+    margin: -10px auto -30px auto;
+    position: relative;
+    top: -130px;
+    left: -50px;
+}
+
+.download-btn{
+     margin: 20px;
+
+}
+.spinner-border{
+    color: red;
+}
+
+.download-btn2{
+    padding: 10px;
+    background-color: #0950ef;
+    color: #fff;
+    border-radius: 10px;
+    
+}
